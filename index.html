@@ -23,10 +23,10 @@
     <div class="container nav-container">
       <h1 class="logo-heading">Fun Bus</h1>
       <nav class="nav">
-        <a class="nav-link" href="#">Home</a>
-        <a class="nav-link" href="#">About Us</a>
-        <a class="nav-link" href="#">Blog</a>
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link home" href="#">Home</a>
+        <a class="nav-link about" href="#">About Us</a>
+        <a class="nav-link blog" href="#">Blog</a>
+        <a class="nav-link contact" href="#">Contact</a>
       </nav>
     </div>
   </header>
@@ -80,10 +80,32 @@
         <p>Expedition excursion design excursion fun, clean simple organized WordPress Travel colorful webdesign. Traveler blogger website design expedition clean excursion traveling.</p>
         <div class="btn">Sign Me Up!</div>
       </div>
+
     </section>
   </div><!-- container -->
 
-  <footer class="footer">
+  <div class="modal off" >
+    <div class="modal-opacity"></div>
+    <div class="modal-dialog">
+      <h4>Sign Me</h4>
+      <form id="form">
+          <div class="file-select">
+            <label for="avatar">Choose a profile picture:</label>
+            <input type="file"
+                  id="avatar" name="avatar"
+                  accept="image/png, image/jpeg">
+        </div>
+  
+        <img src="" class="preview" height="200" alt="Image preview...">
+        <input type="text" placeholder="text input">
+        <input type="password" placeholder="password">
+        <button onclick="console.log('onclick in the HTML!')" id="confirmButton">sumit</button>
+      </form>
+    </div>
+
+  </div>
+
+  <footer class="footer" >
     <p>Copyright Fun Bus 2020</p>
   </footer>
 
